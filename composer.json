@@ -1,0 +1,22 @@
+{
+    "name": "vust/wplibs",
+    "description": "libraries for wordpress by vust",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "google/recaptcha": "1.2"
+    },
+    "authors": [
+        {
+            "name": "vust"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vust\\wplibs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
